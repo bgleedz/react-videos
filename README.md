@@ -1,8 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+With this React component you can do a video search accompanied with 5 related videos displayed in the right column.
 
 ## Available Scripts
-
-In the project directory, you can run:
 
 ### `npm start`
 

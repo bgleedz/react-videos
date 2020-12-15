@@ -4,7 +4,6 @@ import youtube from '../apis/youtube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 
-
 class App extends React.Component {
 	state = { videos: [], selectedVideo: null };
 
@@ -26,11 +25,9 @@ class App extends React.Component {
 	};
 
 	onVideoSelect = (video) => {
-		this.setState({ selectedVideo: video });
+		this.setState({ selectedVideo: video })
 	};
 	
-
-
 	render() {
 		return (
 		<div className="ui container">
@@ -49,8 +46,5 @@ class App extends React.Component {
 		);
 	}
 }
-
-
-
 
 export default App;

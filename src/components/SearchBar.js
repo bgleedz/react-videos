@@ -19,9 +19,9 @@ class SearchBar extends React.Component {
 				<div className="field">
 					<label>Video Search</label>
 					<input 
-					type="text" 
-					value={this.state.term} 
-					onChange={this.onInputChange}
+						type="text" 
+						value={this.state.term} 
+						onChange={this.onInputChange}
 					/>
 				</div>
 			</form>
